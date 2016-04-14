@@ -1,928 +1,444 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>060E0E951CBCF25C000BB835</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>060E0E961CBCF2A2000BB835</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>View</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>060E0E961CBCF2A2000BB835</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PokeCell.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>060E0E971CBCF2A2000BB835</key>
-		<dict>
-			<key>fileRef</key>
-			<string>060E0E961CBCF2A2000BB835</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0637717F1CBD0C2D0023ED4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>063771801CBD0C3F0023ED4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Util</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771801CBD0C3F0023ED4D</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>csv.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771811CBD0C3F0023ED4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>063771801CBD0C3F0023ED4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>063771821CBD0CDA0023ED4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06BD2B5E1CBBABAC00AAA872</string>
-				<string>06F27E171CBD6CBD00A6B009</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Controller</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771841CBD0D3F0023ED4D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>063771871CBD2F0B0023ED4D</string>
-				<string>063771851CBD2AA80023ED4D</string>
-				<string>067B185F1CBC9ADB00DF6B47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771851CBD2AA80023ED4D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file</string>
-			<key>path</key>
-			<string>pokemon.ttf</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771861CBD2AA80023ED4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>063771851CBD2AA80023ED4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>063771871CBD2F0B0023ED4D</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>audio.mp3</string>
-			<key>path</key>
-			<string>music.mp3</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>063771881CBD2F0B0023ED4D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>063771871CBD2F0B0023ED4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>067B185F1CBC9ADB00DF6B47</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>pokemon.csv</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>067B18601CBC9ADB00DF6B47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>067B185F1CBC9ADB00DF6B47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>067B18611CBCB1AF00DF6B47</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>067B18621CBCB1C100DF6B47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Model</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>067B18621CBCB1C100DF6B47</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>Pokemon.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>067B18631CBCB1C100DF6B47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>067B18621CBCB1C100DF6B47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B501CBBABAC00AAA872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06BD2B5B1CBBABAC00AAA872</string>
-				<string>06BD2B5A1CBBABAC00AAA872</string>
-				<string>52BB2D22A664D79FBF1E28C0</string>
-				<string>38E9A9DA54079DDBB0D495DE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B511CBBABAC00AAA872</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0720</string>
-				<key>LastUpgradeCheck</key>
-				<string>0720</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Tatiwat Borwornrattanakit</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>06BD2B581CBBABAC00AAA872</key>
-					<dict>
-						<key>CreatedOnToolsVersion</key>
-						<string>7.2.1</string>
-						<key>DevelopmentTeam</key>
-						<string>QBSPP96QAH</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>06BD2B541CBBABAC00AAA872</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-				<string>Base</string>
-			</array>
-			<key>mainGroup</key>
-			<string>06BD2B501CBBABAC00AAA872</string>
-			<key>productRefGroup</key>
-			<string>06BD2B5A1CBBABAC00AAA872</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>06BD2B581CBBABAC00AAA872</string>
-			</array>
-		</dict>
-		<key>06BD2B541CBBABAC00AAA872</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>06BD2B691CBBABAC00AAA872</string>
-				<string>06BD2B6A1CBBABAC00AAA872</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>06BD2B551CBBABAC00AAA872</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>060E0E971CBCF2A2000BB835</string>
-				<string>06BD2B5F1CBBABAC00AAA872</string>
-				<string>06BD2B5D1CBBABAC00AAA872</string>
-				<string>06F27E181CBD6CBD00A6B009</string>
-				<string>067B18631CBCB1C100DF6B47</string>
-				<string>063771811CBD0C3F0023ED4D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>06BD2B561CBBABAC00AAA872</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5AC7B048352C3B5BC0C5D14A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>06BD2B571CBBABAC00AAA872</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>063771861CBD2AA80023ED4D</string>
-				<string>06BD2B671CBBABAC00AAA872</string>
-				<string>063771881CBD2F0B0023ED4D</string>
-				<string>06BD2B641CBBABAC00AAA872</string>
-				<string>067B18601CBC9ADB00DF6B47</string>
-				<string>06BD2B621CBBABAC00AAA872</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>06BD2B581CBBABAC00AAA872</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>06BD2B6B1CBBABAC00AAA872</string>
-			<key>buildPhases</key>
-			<array>
-				<string>369EEBB25FBBCCF89D6C1934</string>
-				<string>06BD2B551CBBABAC00AAA872</string>
-				<string>06BD2B561CBBABAC00AAA872</string>
-				<string>06BD2B571CBBABAC00AAA872</string>
-				<string>C768FFA8F37629C029C1F828</string>
-				<string>07D7077F6A9F7625A16D237C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>pokedex</string>
-			<key>productName</key>
-			<string>pokedex</string>
-			<key>productReference</key>
-			<string>06BD2B591CBBABAC00AAA872</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>06BD2B591CBBABAC00AAA872</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>pokedex.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>06BD2B5A1CBBABAC00AAA872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06BD2B591CBBABAC00AAA872</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B5B1CBBABAC00AAA872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>063771821CBD0CDA0023ED4D</string>
-				<string>067B18611CBCB1AF00DF6B47</string>
-				<string>060E0E951CBCF25C000BB835</string>
-				<string>0637717F1CBD0C2D0023ED4D</string>
-				<string>063771841CBD0D3F0023ED4D</string>
-				<string>06BD2B5C1CBBABAC00AAA872</string>
-				<string>06BD2B601CBBABAC00AAA872</string>
-				<string>06BD2B631CBBABAC00AAA872</string>
-				<string>06BD2B651CBBABAC00AAA872</string>
-				<string>06BD2B681CBBABAC00AAA872</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>path</key>
-			<string>pokedex</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B5C1CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>AppDelegate.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B5D1CBBABAC00AAA872</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06BD2B5C1CBBABAC00AAA872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B5E1CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ViewController.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B5F1CBBABAC00AAA872</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06BD2B5E1CBBABAC00AAA872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B601CBBABAC00AAA872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06BD2B611CBBABAC00AAA872</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B611CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/Main.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B621CBBABAC00AAA872</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06BD2B601CBBABAC00AAA872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B631CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>path</key>
-			<string>Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B641CBBABAC00AAA872</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06BD2B631CBBABAC00AAA872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B651CBBABAC00AAA872</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>06BD2B661CBBABAC00AAA872</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B661CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.storyboard</string>
-			<key>name</key>
-			<string>Base</string>
-			<key>path</key>
-			<string>Base.lproj/LaunchScreen.storyboard</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B671CBBABAC00AAA872</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06BD2B651CBBABAC00AAA872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>06BD2B681CBBABAC00AAA872</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06BD2B691CBBABAC00AAA872</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>ENABLE_TESTABILITY</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>06BD2B6A1CBBABAC00AAA872</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DEBUG_INFORMATION_FORMAT</key>
-				<string>dwarf-with-dsym</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_NO_COMMON_BLOCKS</key>
-				<string>YES</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.2</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>06BD2B6B1CBBABAC00AAA872</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>06BD2B6C1CBBABAC00AAA872</string>
-				<string>06BD2B6D1CBBABAC00AAA872</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>06BD2B6C1CBBABAC00AAA872</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2F1F183D671289290112DD34</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>pokedex/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tatiwat.pokedex</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>06BD2B6D1CBBABAC00AAA872</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>8A5596720944A0EF333773B7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>INFOPLIST_FILE</key>
-				<string>pokedex/Info.plist</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<string>$(inherited) @executable_path/Frameworks</string>
-				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
-				<string>com.tatiwat.pokedex</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>06F27E171CBD6CBD00A6B009</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>PokemonDetailVC.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>06F27E181CBD6CBD00A6B009</key>
-		<dict>
-			<key>fileRef</key>
-			<string>06F27E171CBD6CBD00A6B009</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>07D7077F6A9F7625A16D237C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>2F1F183D671289290112DD34</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-pokedex.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-pokedex/Pods-pokedex.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>369EEBB25FBBCCF89D6C1934</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>38E9A9DA54079DDBB0D495DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4F3017B3292AACD9CC16555B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F3017B3292AACD9CC16555B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_pokedex.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>52BB2D22A664D79FBF1E28C0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2F1F183D671289290112DD34</string>
-				<string>8A5596720944A0EF333773B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AC7B048352C3B5BC0C5D14A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4F3017B3292AACD9CC16555B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8A5596720944A0EF333773B7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-pokedex.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods-pokedex/Pods-pokedex.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C768FFA8F37629C029C1F828</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Embed Pods Frameworks</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-frameworks.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>06BD2B511CBBABAC00AAA872</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060E0E971CBCF2A2000BB835 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060E0E961CBCF2A2000BB835 /* PokeCell.swift */; };
+		0610F09F1CBE7982002D62AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0610F09E1CBE7982002D62AA /* Constants.swift */; };
+		063771811CBD0C3F0023ED4D /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063771801CBD0C3F0023ED4D /* csv.swift */; };
+		063771861CBD2AA80023ED4D /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 063771851CBD2AA80023ED4D /* pokemon.ttf */; };
+		063771881CBD2F0B0023ED4D /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 063771871CBD2F0B0023ED4D /* music.mp3 */; };
+		067B18601CBC9ADB00DF6B47 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 067B185F1CBC9ADB00DF6B47 /* pokemon.csv */; };
+		067B18631CBCB1C100DF6B47 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B18621CBCB1C100DF6B47 /* Pokemon.swift */; };
+		06BD2B5D1CBBABAC00AAA872 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD2B5C1CBBABAC00AAA872 /* AppDelegate.swift */; };
+		06BD2B5F1CBBABAC00AAA872 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BD2B5E1CBBABAC00AAA872 /* ViewController.swift */; };
+		06BD2B621CBBABAC00AAA872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BD2B601CBBABAC00AAA872 /* Main.storyboard */; };
+		06BD2B641CBBABAC00AAA872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06BD2B631CBBABAC00AAA872 /* Assets.xcassets */; };
+		06BD2B671CBBABAC00AAA872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06BD2B651CBBABAC00AAA872 /* LaunchScreen.storyboard */; };
+		06F27E181CBD6CBD00A6B009 /* PokemonDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F27E171CBD6CBD00A6B009 /* PokemonDetailVC.swift */; };
+		5AC7B048352C3B5BC0C5D14A /* Pods_pokedex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3017B3292AACD9CC16555B /* Pods_pokedex.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		060E0E961CBCF2A2000BB835 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		0610F09E1CBE7982002D62AA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		063771801CBD0C3F0023ED4D /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		063771851CBD2AA80023ED4D /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		063771871CBD2F0B0023ED4D /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		067B185F1CBC9ADB00DF6B47 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		067B18621CBCB1C100DF6B47 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		06BD2B591CBBABAC00AAA872 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06BD2B5C1CBBABAC00AAA872 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06BD2B5E1CBBABAC00AAA872 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06BD2B611CBBABAC00AAA872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06BD2B631CBBABAC00AAA872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06BD2B661CBBABAC00AAA872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06BD2B681CBBABAC00AAA872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F27E171CBD6CBD00A6B009 /* PokemonDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailVC.swift; sourceTree = "<group>"; };
+		2F1F183D671289290112DD34 /* Pods-pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		4F3017B3292AACD9CC16555B /* Pods_pokedex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokedex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5596720944A0EF333773B7 /* Pods-pokedex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex/Pods-pokedex.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06BD2B561CBBABAC00AAA872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AC7B048352C3B5BC0C5D14A /* Pods_pokedex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		060E0E951CBCF25C000BB835 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				060E0E961CBCF2A2000BB835 /* PokeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0637717F1CBD0C2D0023ED4D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				063771801CBD0C3F0023ED4D /* csv.swift */,
+				0610F09E1CBE7982002D62AA /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		063771821CBD0CDA0023ED4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				06BD2B5E1CBBABAC00AAA872 /* ViewController.swift */,
+				06F27E171CBD6CBD00A6B009 /* PokemonDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		063771841CBD0D3F0023ED4D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				063771871CBD2F0B0023ED4D /* music.mp3 */,
+				063771851CBD2AA80023ED4D /* pokemon.ttf */,
+				067B185F1CBC9ADB00DF6B47 /* pokemon.csv */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		067B18611CBCB1AF00DF6B47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				067B18621CBCB1C100DF6B47 /* Pokemon.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		06BD2B501CBBABAC00AAA872 = {
+			isa = PBXGroup;
+			children = (
+				06BD2B5B1CBBABAC00AAA872 /* pokedex */,
+				06BD2B5A1CBBABAC00AAA872 /* Products */,
+				52BB2D22A664D79FBF1E28C0 /* Pods */,
+				38E9A9DA54079DDBB0D495DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06BD2B5A1CBBABAC00AAA872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06BD2B591CBBABAC00AAA872 /* pokedex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06BD2B5B1CBBABAC00AAA872 /* pokedex */ = {
+			isa = PBXGroup;
+			children = (
+				063771821CBD0CDA0023ED4D /* Controller */,
+				067B18611CBCB1AF00DF6B47 /* Model */,
+				060E0E951CBCF25C000BB835 /* View */,
+				0637717F1CBD0C2D0023ED4D /* Util */,
+				063771841CBD0D3F0023ED4D /* Resources */,
+				06BD2B5C1CBBABAC00AAA872 /* AppDelegate.swift */,
+				06BD2B601CBBABAC00AAA872 /* Main.storyboard */,
+				06BD2B631CBBABAC00AAA872 /* Assets.xcassets */,
+				06BD2B651CBBABAC00AAA872 /* LaunchScreen.storyboard */,
+				06BD2B681CBBABAC00AAA872 /* Info.plist */,
+			);
+			path = pokedex;
+			sourceTree = "<group>";
+		};
+		38E9A9DA54079DDBB0D495DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F3017B3292AACD9CC16555B /* Pods_pokedex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52BB2D22A664D79FBF1E28C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F1F183D671289290112DD34 /* Pods-pokedex.debug.xcconfig */,
+				8A5596720944A0EF333773B7 /* Pods-pokedex.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06BD2B581CBBABAC00AAA872 /* pokedex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06BD2B6B1CBBABAC00AAA872 /* Build configuration list for PBXNativeTarget "pokedex" */;
+			buildPhases = (
+				369EEBB25FBBCCF89D6C1934 /* Check Pods Manifest.lock */,
+				06BD2B551CBBABAC00AAA872 /* Sources */,
+				06BD2B561CBBABAC00AAA872 /* Frameworks */,
+				06BD2B571CBBABAC00AAA872 /* Resources */,
+				C768FFA8F37629C029C1F828 /* Embed Pods Frameworks */,
+				07D7077F6A9F7625A16D237C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokedex;
+			productName = pokedex;
+			productReference = 06BD2B591CBBABAC00AAA872 /* pokedex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06BD2B511CBBABAC00AAA872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tatiwat Borwornrattanakit";
+				TargetAttributes = {
+					06BD2B581CBBABAC00AAA872 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = QBSPP96QAH;
+					};
+				};
+			};
+			buildConfigurationList = 06BD2B541CBBABAC00AAA872 /* Build configuration list for PBXProject "pokedex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06BD2B501CBBABAC00AAA872;
+			productRefGroup = 06BD2B5A1CBBABAC00AAA872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06BD2B581CBBABAC00AAA872 /* pokedex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06BD2B571CBBABAC00AAA872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				063771861CBD2AA80023ED4D /* pokemon.ttf in Resources */,
+				06BD2B671CBBABAC00AAA872 /* LaunchScreen.storyboard in Resources */,
+				063771881CBD2F0B0023ED4D /* music.mp3 in Resources */,
+				06BD2B641CBBABAC00AAA872 /* Assets.xcassets in Resources */,
+				067B18601CBC9ADB00DF6B47 /* pokemon.csv in Resources */,
+				06BD2B621CBBABAC00AAA872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07D7077F6A9F7625A16D237C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369EEBB25FBBCCF89D6C1934 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C768FFA8F37629C029C1F828 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokedex/Pods-pokedex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06BD2B551CBBABAC00AAA872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060E0E971CBCF2A2000BB835 /* PokeCell.swift in Sources */,
+				06BD2B5F1CBBABAC00AAA872 /* ViewController.swift in Sources */,
+				06BD2B5D1CBBABAC00AAA872 /* AppDelegate.swift in Sources */,
+				06F27E181CBD6CBD00A6B009 /* PokemonDetailVC.swift in Sources */,
+				0610F09F1CBE7982002D62AA /* Constants.swift in Sources */,
+				067B18631CBCB1C100DF6B47 /* Pokemon.swift in Sources */,
+				063771811CBD0C3F0023ED4D /* csv.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		06BD2B601CBBABAC00AAA872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06BD2B611CBBABAC00AAA872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06BD2B651CBBABAC00AAA872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06BD2B661CBBABAC00AAA872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06BD2B691CBBABAC00AAA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06BD2B6A1CBBABAC00AAA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06BD2B6C1CBBABAC00AAA872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1F183D671289290112DD34 /* Pods-pokedex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokedex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatiwat.pokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06BD2B6D1CBBABAC00AAA872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5596720944A0EF333773B7 /* Pods-pokedex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = pokedex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tatiwat.pokedex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06BD2B541CBBABAC00AAA872 /* Build configuration list for PBXProject "pokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BD2B691CBBABAC00AAA872 /* Debug */,
+				06BD2B6A1CBBABAC00AAA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06BD2B6B1CBBABAC00AAA872 /* Build configuration list for PBXNativeTarget "pokedex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06BD2B6C1CBBABAC00AAA872 /* Debug */,
+				06BD2B6D1CBBABAC00AAA872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06BD2B511CBBABAC00AAA872 /* Project object */;
+}
