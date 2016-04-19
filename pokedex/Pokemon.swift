@@ -129,7 +129,7 @@ class Pokemon {
                     self._defense = "\(defense)"
                 }
                 
-                if let type = dict["type"] as? [Dictionary<String, String>] where type.count > 0 {
+                if let type = dict["types"] as? [Dictionary<String, String>] where type.count > 0 {
                     
                     if let name = type[0]["name"] {
                         self._type = name
